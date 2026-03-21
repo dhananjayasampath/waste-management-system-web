@@ -21,9 +21,6 @@
   --container-width: 1200px;
 }
 
-/* =========================
-   RESET
-========================= */
 * {
   margin: 0;
   padding: 0;
@@ -62,9 +59,6 @@ textarea {
   font-family: inherit;
 }
 
-/* =========================
-   GLOBAL
-========================= */
 .container {
   width: min(92%, var(--container-width));
   margin: 0 auto;
@@ -323,7 +317,7 @@ p {
 }
 
 .hero-title {
-  font-size: clamp(3rem, 6vw, 5.6rem);
+  font-size: clamp(2.8rem, 5vw, 4.5rem);
   line-height: 1.02;
   font-weight: 800;
   color: var(--white);
@@ -461,7 +455,7 @@ p {
    ABOUT
 ========================= */
 .about {
-  background: #f7f7f7;
+  background: #ffffff;
 }
 
 .about-title {
