@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login / Sign Up</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="login-style.css" />
+</head>
+<body>
+  <main class="auth-page">
+    <section class="auth-container" id="authContainer">
+      <!-- Sign Up -->
+      <div class="form-panel sign-up-panel">
+        <div class="form-box">
+          <div class="icon-circle"></div>
+          <h2>Create an account</h2>
+          <p class="sub-text">Join us and start your eco journey today</p>
+
+          <form>
+            <div class="input-group">
+              <label for="signup-name">Name</label>
+              <input type="text" id="signup-name" />
+            </div>
+
+            <div class="input-group">
+              <label for="signup-phone">Phone Number</label>
+              <input type="text" id="signup-phone" />
+            </div>
+
+            <div class="input-group">
+              <label for="signup-email">Email</label>
+              <input type="email" id="signup-email" />
+            </div>
+
+            <div class="input-group">
+              <label for="signup-password">Password</label>
+              <div class="password-wrap">
+                <input type="password" id="signup-password" />
+                <button type="button" class="toggle-password">Hide</button>
+              </div>
+            </div>
+
+            <div class="input-group">
+              <label for="signup-confirm">Confirm Password</label>
+              <div class="password-wrap">
+                <input type="password" id="signup-confirm" />
+                <button type="button" class="toggle-password">Hide</button>
+              </div>
+            </div>
+
+            <button type="submit" class="main-btn">Create an account</button>
+
+            <p class="social-text">
+              Or, continue with <span>Google</span> or <span>Facebook</span>
+            </p>
+          </form>
+        </div>
+      </div>
+
+      <!-- Sign In -->
+      <div class="form-panel sign-in-panel">
+        <div class="form-box">
+          <div class="icon-circle"></div>
+          <h2>Welcome back!</h2>
+          <p class="sub-text">Sign in to continue your eco journey</p>
+
+          <form>
+            <div class="input-group">
+              <label for="signin-phone">Phone Number</label>
+              <input type="text" id="signin-phone" />
+            </div>
+
+            <div class="input-group">
+              <label for="signin-password">Password</label>
+              <div class="password-wrap">
+                <input type="password" id="signin-password" />
+                <button type="button" class="toggle-password">Hide</button>
+              </div>
+            </div>
+
+            <button type="submit" class="main-btn">Sign in</button>
+
+            <p class="social-text">
+              Or, continue with <span>Google</span> or <span>Facebook</span>
+            </p>
+          </form>
+        </div>
+      </div>
+
+      <!-- Right Overlay -->
+      <div class="overlay-panel overlay-right">
+        <div class="overlay-content">
+          <h3>Don't have an account?</h3>
+          <p>Create your new account and start with us</p>
+          <button class="ghost-btn" id="showSignIn">Sign in</button>
+        </div>
+      </div>
+
+      <!-- Left Overlay -->
+      <div class="overlay-panel overlay-left">
+        <div class="overlay-content">
+          <h3>Already have an account?</h3>
+          <p>Sign in to manage your account easily</p>
+          <button class="ghost-btn" id="showSignUp">Sign up</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="login-script.js"></script>
+</body>
+</html>
