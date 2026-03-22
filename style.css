@@ -90,9 +90,6 @@ p {
   color: var(--text-light);
 }
 
-/* =========================
-   BUTTONS
-========================= */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -140,9 +137,6 @@ p {
   transform: translateY(-3px);
 }
 
-/* =========================
-   HEADER
-========================= */
 .header {
   position: absolute;
   top: 0;
@@ -169,8 +163,8 @@ p {
 }
 
 .logo img {
-  width: 36px;
-  height: 36px;
+  width: auto;
+  height: 42px;
   object-fit: contain;
 }
 
@@ -222,9 +216,6 @@ p {
   border-radius: 3px;
 }
 
-/* =========================
-   HERO
-========================= */
 .hero {
   position: relative;
   min-height: 100vh;
@@ -451,9 +442,6 @@ p {
   animation: rotateSlowReverse 24s linear infinite;
 }
 
-/* =========================
-   ABOUT
-========================= */
 .about {
   background: #ffffff;
 }
@@ -538,9 +526,6 @@ p {
   transform: translateY(8px);
 }
 
-/* =========================
-   SERVICES
-========================= */
 .services {
   background: #eef5ef;
 }
@@ -593,9 +578,6 @@ p {
   font-size: 0.92rem;
 }
 
-/* =========================
-   CONTACT
-========================= */
 .contact {
   background: var(--white);
 }
@@ -670,12 +652,9 @@ p {
   color: var(--green-main);
 }
 
-/* =========================
-   FOOTER
-========================= */
 .footer {
   background: var(--green-deep);
-  color: var(--white);
+  color: white;
   padding-top: 60px;
 }
 
@@ -741,16 +720,8 @@ p {
   font-size: 0.9rem;
 }
 
-/* =========================
-   OPTIONAL HIDE
-========================= */
-.hover-button {
-  display: none;
-}
 
-/* =========================
-   ANIMATIONS
-========================= */
+
 @keyframes fadeUp {
   from {
     opacity: 0;
@@ -850,10 +821,7 @@ p {
     transform: scale(1) translate(0, 0);
   }
 }
-
-/* =========================
-   RESPONSIVE
-========================= */
+ 
 @media (max-width: 1100px) {
   .hero-container,
   .about-grid,
@@ -1060,7 +1028,6 @@ p {
   }
 }
 
-/* Preloader */
 #preloader {
   position: fixed;
   inset: 0;
