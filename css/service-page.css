@@ -30,7 +30,20 @@ body {
   color: var(--text-dark);
   line-height: 1.7;
 }
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--white);
+  font-weight: 700;
+  font-size: 1rem;
+}
 
+.logo img {
+  width: auto;
+  height: 42px;
+  object-fit: contain;
+}
 img {
   max-width: 100%;
   display: block;

@@ -84,7 +84,6 @@ aboutTabs.forEach((tab) => {
   });
 });
 
-// Lottie Loader
 const loaderAnimation = lottie.loadAnimation({
   container: document.getElementById("lottie-loader"),
   renderer: "svg",
