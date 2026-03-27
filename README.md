@@ -1,8 +1,6 @@
-
-
 # WasteBin – Waste Management System
 
-![WasteBin Logo](images/logo1.png)
+![WasteBin Logo](images/home.png)
 
 [![License](https://img.shields.io/badge/License-Educational-green)](LICENSE)
 [![PHP](https://img.shields.io/badge/PHP-8.2-blue)](https://www.php.net/)
@@ -67,7 +65,6 @@ WasteBin/
 ├─ css/                      # Stylesheets
 ├─ js/                       # JavaScript files
 ├─ images/                   # Project images, icons, illustrations
-├─ feedback.php              # Feedback submission page
 └─ other static pages        # Waste collection, recycling, awareness
 ```
 
@@ -112,5 +109,3 @@ WasteBin/
 ## Vision
 
 Empowering communities to adopt **sustainable waste management practices** for cleaner, greener cities and a healthier planet.
-
-
